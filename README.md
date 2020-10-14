@@ -6,11 +6,11 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID
+1. WordPress 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
