@@ -11,7 +11,7 @@ Time spent: **24** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: vulnerability1.gif
+  - [ ] GIF Walkthrough: <img src="vulnerability1.gif" alt="Vulnerability 1">
   - [ ] Steps to recreate: Create a post with a youtube video embedded into the post. The post is injected containing a simple script as: 
   
     [embed src='https://youtube.com/embed/123\x3csvg onload=alert(2)\x3e'][/embed]
