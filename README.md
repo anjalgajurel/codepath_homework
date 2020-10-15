@@ -32,7 +32,7 @@ Time spent: **24** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.25
   - [ ] GIF Walkthrough: <img src="vulnerability3.gif" alt="Vulnerability 3">
-  - [ ] Steps to recreate: Adding [?static=1&order=asc] to a wordpress URL should leak its secret content. http://wpdistillery.vm/?static=1&order=asc will result in displaying           all the draft, private, password protected and trashed pages.
+  - [ ] Steps to recreate: Adding ?static=1&order=asc to a wordpress URL should leak its secret content. http://wpdistillery.vm/?static=1&order=asc will result in displaying           all the draft, private, password protected and trashed pages.
   - [ ] Affected source code:
     - [Link 3](https://developer.wordpress.org/reference/files/wp-includes/class-wp-query.php/)
 4. (Optional) Vulnerability Name or ID
