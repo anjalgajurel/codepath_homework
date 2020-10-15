@@ -14,19 +14,19 @@ Time spent: **24** hours spent in total
   - [ ] GIF Walkthrough: <img src="vulnerability1.gif" alt="Vulnerability 1">
   - [ ] Steps to recreate: Create a post with a youtube video embedded into the post. The post is injected containing a simple script as: 
   
-    [embed src='https://youtube.com/embed/123\x3csvg onload=alert(2)\x3e'][/embed]
+        [embed src='https://youtube.com/embed/123\x3csvg onload=alert(2)\x3e'][/embed]
   - [ ] Affected source code:
     - [Link 1](https://github.com/WordPress/WordPress/commit/419c8d97ce8df7d5004ee0b566bc5e095f0a6ca8)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+2. OVE-20160717-0004
+  - [ ] Summary: Cross-Site Request Forgery in WordPress Connection Information
+    - Vulnerability types: CSRF
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.15
+  - [ ] GIF Walkthrough: <img src="vulnerability2.gif" alt="Vulnerability 2">
+  - [ ] Steps to recreate: I hosted a vulnerable form into github. The link to the form is https://anjalgajurel.github.io. The attacker tricks the admin who is already logged in         into clicking the url disclosing his/her login credentials.
+  - [ ] Affected source code: https://developer.wordpress.org/reference/functions/request_filesystem_credentials/
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -71,7 +71,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2020 Anjal Gajurel
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
