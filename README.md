@@ -23,7 +23,7 @@ Time spent: **24** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.15
   - [ ] GIF Walkthrough: <img src="vulnerability2.gif" alt="Vulnerability 2">
-  - [ ] Steps to recreate: I hosted a vulnerable form into github. The link to the form is https://anjalgajurel.github.io. The attacker tricks the admin who is already logged in         into clicking the url disclosing his/her login credentials.
+  - [ ] Steps to recreate: I hosted a vulnerable form into github. The link to the form is https://github.com/anjalgajurel/anjalgajurel.github.io/blob/master/index.html. The             attacker tricks the admin who is already logged in into clicking the url disclosing his/her login credentials.
   - [ ] Affected source code: 
     - [Link 2](https://developer.wordpress.org/reference/functions/request_filesystem_credentials/)
 3. CVE 2019-17671
@@ -56,7 +56,7 @@ Time spent: **24** hours spent in total
 
 ## Assets
 
-List any additional assets, such as scripts or files
+For vulnerability 2, I hosted a form on github. [Link to the form](https://github.com/anjalgajurel/anjalgajurel.github.io/blob/master/index.html)
 
 ## Resources
 
