@@ -52,7 +52,7 @@ Time spent: **24** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: NA
   - [ ] GIF Walkthrough: <img src="vulnerability5.gif" alt="Vulnerability 5">
-  - [ ] Steps to recreate: Open the wordpress site and add ?author=<number> at the end of the url, replacing <number> with an integer. When you view the page source, you can
+  - [ ] Steps to recreate: Open the wordpress site and add ?author=(number) at the end of the url, replacing (number) with an integer. When you view the page source, you can
         see the username.
   - [ ] Affected source code:
     - [htaccess](https://wordpress.org/support/article/htaccess/) 
