@@ -46,15 +46,16 @@ Time spent: **24** hours spent in total
       The number of As in the code should exceed about 18000 characters.
   - [ ] Affected source code:
     - [wp-db.php](https://developer.wordpress.org/reference/files/wp-includes/wp-db.php/)
-1. (Optional) Vulnerability Name or ID
+5. WordPress Username Enumeration
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types:User Enumeration/IDOR
+    - Tested in version: 4.2
+    - Fixed in version: NA
+  - [ ] GIF Walkthrough: <img src="vulnerability5.gif" alt="Vulnerability 5">
+  - [ ] Steps to recreate: Open the wordpress site and add ?author=<number> at the end of the url, replacing <number> with an integer. When you view the page source, you can
+        see the username.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+    - [htaccess](https://wordpress.org/support/article/htaccess/) 
 
 ## Assets
 
@@ -69,7 +70,7 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+It took a lot of time going through each of the websites from wpsscan. I found some proof of concepts but I was not able to recreate some of the vulnerabilities while following the same steps. 
 
 ## License
 
