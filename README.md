@@ -16,7 +16,7 @@ Time spent: **24** hours spent in total
   
         [embed src='https://youtube.com/embed/123\x3csvg onload=alert(2)\x3e'][/embed]
   - [ ] Affected source code:
-    - [Link 1](https://developer.wordpress.org/reference/functions/shortcode_parse_atts/)
+    - [shortcode_parse_atts](https://developer.wordpress.org/reference/functions/shortcode_parse_atts/)
 2. OVE-20160717-0004
   - [ ] Summary: Cross-Site Request Forgery in WordPress Connection Information
     - Vulnerability types: CSRF
@@ -25,7 +25,7 @@ Time spent: **24** hours spent in total
   - [ ] GIF Walkthrough: <img src="vulnerability2.gif" alt="Vulnerability 2">
   - [ ] Steps to recreate: I hosted a vulnerable form into github. The link to the form is https://github.com/anjalgajurel/anjalgajurel.github.io/blob/master/index.html. The             attacker tricks the admin who is already logged in into clicking the url disclosing his/her login credentials.
   - [ ] Affected source code: 
-    - [Link 2](https://developer.wordpress.org/reference/functions/request_filesystem_credentials/)
+    - [request_filesystem_credentials](https://developer.wordpress.org/reference/functions/request_filesystem_credentials/)
 3. CVE 2019-17671
   - [ ] Summary: WordPress <= 5.2.3 - Unauthenticated View Private/Draft Posts
     - Vulnerability types: IDOR/BYPASS
@@ -34,16 +34,18 @@ Time spent: **24** hours spent in total
   - [ ] GIF Walkthrough: <img src="vulnerability3.gif" alt="Vulnerability 3">
   - [ ] Steps to recreate: Adding ?static=1&order=asc to a wordpress URL should leak its secret content. http://wpdistillery.vm/?static=1&order=asc will result in displaying           all the draft, private, password protected and trashed pages.
   - [ ] Affected source code:
-    - [Link 3](https://developer.wordpress.org/reference/files/wp-includes/class-wp-query.php/)
-4. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - [class-wp-query.php](https://developer.wordpress.org/reference/files/wp-includes/class-wp-query.php/)
+4. CVE 2015-3440
+  - [ ] Summary: WordPress Core 4.2 - Persistent Cross-Site Scripting 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
+  - [ ] GIF Walkthrough: <img src="vulnerability4.gif" alt="Vulnerability 4">
+  - [ ] Steps to recreate: Enter the following code as a comment:
+      <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a>
+      The number of As in the code should exceed about 18000 characters.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [wp-db.php](https://developer.wordpress.org/reference/files/wp-includes/wp-db.php/)
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
