@@ -41,24 +41,24 @@ Description: Open up the contact form and put the malicious code inside the feed
 
 <img src="green-vuln1.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Username Enumeration
 
-Description:
+Description: When you type the correct username but an incorrect password, you get an error. During inspection of the error, we can find that the error is spanned by class="failure". When an incorrect username is used, error returns class="failed".
 
 <img src="green-vuln2.gif">
 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
-Description:
+Description:  When you view the salesperson info, you can put ?id=10 or ?id=11 to view hidden information.
 
 <img src="red-vuln1.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Insecure Direct Object Reference (IDOR)
 
-Description:
+Description: A link to malicious form is provided through the feedback box in the contact page. When a logged-in admin opens the link, the salesperson data is modified. 
 
 <img src="red-vuln2.gif">
 
