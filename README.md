@@ -31,9 +31,9 @@ Description:
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Cross-Site Scripting (XSS)
 
-Description:
+Description: Open up the contact form and put the malicious code inside the feedback box. 
 
 <img src="green-vuln1.gif">
 
