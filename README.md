@@ -58,7 +58,7 @@ Description:  When you view the salesperson info, you can put ?id=10 or ?id=11 t
 
 Vulnerability #2: Insecure Direct Object Reference (IDOR)
 
-Description: A link to malicious form is provided through the feedback box in the contact page. When a logged-in admin opens the link, the salesperson data is modified. 
+Description: A link to malicious form is provided through the feedback box in the contact page. When a logged-in admin opens the link, a new user is added. [Click Here](https://github.com/anjalgajurel/csrftest/blob/master/index.htm) for the form I used. 
 
 <img src="red-vuln2.gif">
 
