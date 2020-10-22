@@ -67,7 +67,8 @@ Description: A link to malicious form is provided through the feedback box in th
 ## Bonus 
 
 Objective #2: XSS
-All XSS scripts are injected through contact form.
+
+Description: All XSS scripts are injected through contact form.
 
 a. Direct the user to a new URL: 
 
