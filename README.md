@@ -31,6 +31,7 @@ Description: I opened two instances of the login page in two browsers. I logged 
 
 <img src="blue-vuln2.gif">
 
+
 ## Green
 
 Vulnerability #1: Cross-Site Scripting (XSS)
@@ -63,6 +64,23 @@ Description: A link to malicious form is provided through the feedback box in th
 <img src="red-vuln2.gif">
 
 
+## Bonus 
+
+Objective #2: XSS
+All XSS scripts are injected through contact form.
+a. Direct the user to a new URL: 
+
+    <script>document.location = "https://facebook.com";</script>
+b. Read cookie data:
+
+    <script>alert(document.cookie);</script>
+c. Set cookie data:
+
+    <script>document.cookie = "username=testCookie1";</script>
+
+<img src="green-vulnBonus.gif">
+
+
 ## Notes
 
-Describe any challenges encountered while doing the work
+Took awhile to figure out which color had the vulnerabilities. I always have trouble with sql injection because most of the commands are guessing at random which becomes frustrating in a long run.
