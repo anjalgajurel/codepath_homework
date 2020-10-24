@@ -57,7 +57,7 @@ Description:  When you view the salesperson info, you can put ?id=10 or ?id=11 t
 
 <img src="red-vuln1.gif">
 
-Vulnerability #2: Insecure Direct Object Reference (IDOR)
+Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
 Description: A link to malicious form is provided through the feedback box in the contact page. When a logged-in admin opens the link, a new user is added. [Click Here](https://github.com/anjalgajurel/csrftest/blob/master/index.htm) for the form I used. 
 
