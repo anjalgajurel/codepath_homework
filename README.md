@@ -38,25 +38,25 @@
 
 ### Malware Capture and Identification (Optional)
 
-#### X Malware
+#### WannaCry Malware
 
-**Summary:** How did you find it? Which honeypot captured it? What does each malware do?
+**Summary:** Dionaea captured this malware. It is a trojan virus which throws an error to user saying, "The application has failed to start ..." when the system starts.
 
-MD5 Hash: *Run `md5sum` on the file and record the hash here.*
+MD5 Hash: *414a3594e4a822cfb97a4326e185f620*
 
-SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
+SHA1 Hash: *5f1e7bc375dd8093fa987af0771e72389dad473b*
 
-<img src="x-malware.gif">
+<img src="wannacry-malware.png">
 
-#### y Malware
+#### Kido Worm
 
-**Summary:** How did you find it? Which honeypot captured it? What does each malware do?
+**Summary:** Dionaea found the malware. It is also called Conficker. This worm mainly spreads through local network and external storage devices such as USB, portable hard drives, etc. It will back up the executable files to the system with random names.
 
-MD5 Hash: *Run `md5sum` on the file and record the hash here.*
+MD5 Hash: *af76a2ad1dc8525e73a5c6dc932c7913*
 
-SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
+SHA1 Hash: *c680a4e34b71a4f27b6b50b7f1641d1769ff048f*
 
-<img src="y-malware.gif">
+<img src="kido-malware.png">
 
 ## Notes
 
