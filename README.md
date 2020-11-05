@@ -12,27 +12,27 @@
 
 ### Dionaea Honeypot Deployment (Required)
 
-**Summary:** Dionaea is a malware capturing honeypot. It traps malware exploiting vulnerabilities exposed by services offered over a network, and obtain a copy of the malware. It uses Pythoon as its scripting language.
+**Summary:** Dionaea is a malware capturing honeypot. It traps malware exploiting vulnerabilities exposed by services offered over a network, and obtain a copy of the malware. It uses Python as its scripting language.
 
 <img src="dionaea-honeypot.gif">
 
 ### Database Backup (Required) 
 
-**Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
+**Summary:** MHN-Admin uses MongoDB. The exported json file contains info about source port, destination port, timestamp, honeypot type, protocal, etc.
 
-*Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
+[session.json]{/session.json}
 
 ### Deploying Additional Honeypot(s) (Optional)
 
 #### Snort Honeypot
 
-**Summary:** What does this honeypot simulate and do for a security researcher?
+**Summary:** It is an open source network intrusion detection system that performs real-time traffic analysis. It can be used to detect a variety of attacks and probes, such as buffer overflows, stealth port scans, and OS fingerprinting attempts.
 
 <img src="snort-honeypot.gif">
 
 #### p0f Honeypot
 
-**Summary:** What does this honeypot simulate and do for a security researcher?
+**Summary:** p0f uses a fingerprinting technique based on analyzing the structure of a TCP/IP packet to determine  the  operating  system and other configuration properties of a remote host. The process is completely passive and does not generate any suspicious  network  traffic. This method can see thru packet firewalls and does not have the restrictions of an active fingerprinting.The main uses of passive OS fingerprinting are attacker profiling (IDS and honeypots), visitor profiling (content optimization), customer/user profiling(policy enforcement), pen-testing, etc.
 
 <img src="p0f-honeypot.gif">
 
