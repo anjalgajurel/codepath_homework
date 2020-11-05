@@ -18,9 +18,7 @@
 
 ### Database Backup (Required) 
 
-**Summary:** MHN-Admin uses MongoDB. The exported json file contains info about source port, destination port, timestamp, honeypot type, protocal, etc. Here is the link for the file.
-
-    [session.json](/session.json)
+**Summary:** MHN-Admin uses MongoDB. The exported json file contains info about source port, destination port, timestamp, honeypot type, protocal, etc. Here is the link for the file. [session.json](/session.json)
 
 ### Deploying Additional Honeypot(s) (Optional)
 
@@ -60,4 +58,4 @@ SHA1 Hash: *c680a4e34b71a4f27b6b50b7f1641d1769ff048f*
 
 ## Notes
 
-Describe any challenges encountered while doing the assignment.
+It took me a while to figure out what all this assignment is about. After going through the steps, it was a breeze setting up the honeypots. I had issues while deploying Suricata and Glastopf. Also, I was having authentication issues with one of the VMs. 
