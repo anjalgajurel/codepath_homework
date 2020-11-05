@@ -20,7 +20,7 @@
 
 **Summary:** MHN-Admin uses MongoDB. The exported json file contains info about source port, destination port, timestamp, honeypot type, protocal, etc.
 
-[session.json]{/session.json}
+[session.json](/session.json)
 
 ### Deploying Additional Honeypot(s) (Optional)
 
