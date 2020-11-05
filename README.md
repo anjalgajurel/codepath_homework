@@ -6,7 +6,7 @@
 
 ### MHN-Admin Deployment (Required)
 
-**Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
+**Summary:** I used Google Cloud Platform to signup for cloud computing. There I registered for a free service to host up the virtual machine where I deployed the honeypots and the mhn-admin.
 
 <img src="mhn-admin.gif">
 
@@ -18,9 +18,9 @@
 
 ### Database Backup (Required) 
 
-**Summary:** MHN-Admin uses MongoDB. The exported json file contains info about source port, destination port, timestamp, honeypot type, protocal, etc.
+**Summary:** MHN-Admin uses MongoDB. The exported json file contains info about source port, destination port, timestamp, honeypot type, protocal, etc. Here is the link for the file.
 
-[session.json](/session.json)
+    [session.json](/session.json)
 
 ### Deploying Additional Honeypot(s) (Optional)
 
