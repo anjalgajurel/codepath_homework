@@ -1,5 +1,4 @@
 # Project 7 - WordPress Pentesting
-<img src="test%232.gif" alt="This is just a test">
 
 Time spent: **24** hours spent in total
 
